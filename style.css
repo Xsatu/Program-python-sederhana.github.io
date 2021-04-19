@@ -1,0 +1,88 @@
+h3 {
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+#text1 {
+  padding-top: 60px;
+  font-family: arial;
+  font-size: medium;
+}
+
+#text2 .container .row .col p {
+  font-family: arial;
+  font-size: medium;
+  position: relative;
+  top: 12px;
+}
+
+#img2 {
+  position: relative;
+  top: 5px;
+}
+
+#text3 {
+  font-family: arial;
+  font-size: medium;
+  position: relative;
+  top: 19px;
+}
+
+#img3 {
+  position: relative;
+  top: 5px;
+}
+
+#text4 {
+  font-family: arial;
+  font-size: medium;
+  position: relative;
+  top: 22px;
+}
+
+#img4 {
+  position: relative;
+  top: 12px;
+}
+
+#textOutput {
+  font-family: arial;
+  font-size: medium;
+  position: relative;
+  top: 26px;
+}
+
+#imgOutput {
+  position: relative;
+  top: 15px;
+}
+
+#penutup {
+  font-family: arial;
+  font-size: medium;
+  position: relative;
+  top: 22px;
+}
+
+footer {
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
+#footer {
+  text-decoration: none;
+}
+
+#footer:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#footer:hover:active {
+  color: black;
+  text-decoration: none;
+}
