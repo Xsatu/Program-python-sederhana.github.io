@@ -12,6 +12,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Program Python sederhana</title>
   </head>
   <body>
@@ -87,7 +88,7 @@
     <!-- Akhir Text2 -->
 
     <section id="img2">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="650">
             <div class="row">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
@@ -101,7 +102,7 @@
     <!-- Text3 -->
 
     <section id="text3">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="650" >
             <div class="row">
                 <div class="col">
                     <p>Setelah itu kita buat rumus nya agar bisa di proses dengan mengetikan v = p*l*t </p>
@@ -113,7 +114,7 @@
     <!--Akhir Text3-->
 
     <section id="img3">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="650">
             <div class="row">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
@@ -125,8 +126,7 @@
     </section>
 
     <section id="text4">
-
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="650">
             <div class="row">
                 <div class="col">
                     <p>Untuk melihat hasilnya kalian harus mengetikan print("Volume Balok = %0i " "cm3" %v)</p>
@@ -137,7 +137,7 @@
     </section>
 
     <section id="img4">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="650">
             <div class="row">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
@@ -150,7 +150,7 @@
     <!-- Text Output -->
 
     <section id="textOutput">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="650">
             <div class="row">
                 <div class="col">
                     <p>Untuk memunculkan output nya, bisa kalian ikuti langkah di bawah ini. <br> 1.Buka command prompt <br> 2.cari dimana kalian meletakan folder nya lalu ketikan cd nama letak folder <br> 3.Jika sudah masukan nama folder <br> 4.Setelah itu masukan nama file.py <br> 5.Masukan angka-angka yang ingin di kerjakan</p>
@@ -162,7 +162,7 @@
     <!-- Akhir Text Output-->
 
     <section id="imgOutput">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="650">
             <div class="row">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
@@ -174,7 +174,7 @@
     </section>
 
     <section id="penutup">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="650">
             <div class="row">
                 <div class="col">
                     <p>Dan taraa kalian telah berhasil membuat program python sederhana.</p>
@@ -192,6 +192,21 @@
         <p id="pf">Created by <a id="footer" class="text-white fw-bold" href="https://www.instagram.com/x.saatu/" target="_blank">x.saatu</a></p>
     </footer>
     <!-- Akhir Footer -->
+
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        once: true,
+    });
+  </script>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script>
+      gsap.from('#header h3', { duration: 2, y: -10, opacity: 0 })
+  </script>
 
  </body>
 </html>

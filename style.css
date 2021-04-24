@@ -87,7 +87,7 @@ footer {
   text-decoration: underline;
 }
 
-#footer:hover:active {
-  color: black;
+#footer:active {
+  font-color: #0d6efd;
   text-decoration: none;
 }
