@@ -12,6 +12,11 @@ h3 {
   font-size: medium;
 }
 
+#img1 {
+  position: relative;
+  text-align: center;
+}
+
 #text2 .container .row .col p {
   font-family: arial;
   font-size: medium;
@@ -21,7 +26,6 @@ h3 {
 
 #img2 {
   position: relative;
-  top: 5px;
 }
 
 #text3 {
@@ -67,6 +71,34 @@ h3 {
   top: 22px;
 }
 
+hr {
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+}
+
+#galery {
+  position: relative;
+  top: 13px;
+}
+
+h5 {
+  text-align: center;
+  font-family: arial;
+  font-weight: 100;
+}
+
+#btn {
+  text-align: center;
+  position: relative;
+  top: 8px;
+  left: 80px;
+}
+
+#btn:active {
+  color: #0d6efd;
+}
+
 footer {
   text-align: center;
   position: relative;
@@ -88,6 +120,6 @@ footer {
 }
 
 #footer:active {
-  font-color: #0d6efd;
+  color: #0d6efd;
   text-decoration: none;
 }
